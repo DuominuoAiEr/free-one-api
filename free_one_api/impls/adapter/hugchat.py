@@ -45,7 +45,7 @@ class HuggingChatAdapter(llm.LLMLibAdapter):
     def config_comment(cls) -> str:
         return \
             """Please provide email and passwd to sign up for HuggingChat:
-            
+             
             {
                 "email": "your email",
                 "passwd": "your password"
